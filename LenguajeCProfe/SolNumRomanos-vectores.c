@@ -1,25 +1,23 @@
+int leerNumero();
 
 #include <stdio.h>
 #include <stdlib.h>
-
-int leerNumero(char *);
-
 int main()
 {
-    char sNum[5];
+    
+    
+    
     int N;
     const char *Unidad[]={"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
     const char *Decena[]={"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
     const char *Centena[]= {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
-    printf("Ingrese un numero entre 1-999: \n");
-    scanf("%s",&sNum);
-
-    N=leerNumero(*sNum);
-    printf("en valor numerico es: %d\n\n", N);
-
+    
+    
+    N=leerNumero();
     int u=N%10;
     int d=(N/10)%10;
     int c=N/100;
+
       if(N>=100){
           printf("%s%s%s",Centena[c],Decena[d],Unidad[u]);
       }else{
