@@ -10,6 +10,7 @@ int leerNumero()
     num=atoi(stringNum); /* atoi convierte el numero ingresado como cadena en entero
     en caso de ser posible, de lo contrario retorna 0*/
     
+/*Comprobar que se ha convertido correctamente en un numero entero*/
     if(num!=0) 
         printf("El numero es: %d\n",num);
     else

@@ -1,3 +1,5 @@
+/*Se crea funcion llamada leerNumero para que lea el numero en forma de texto y lo valide*/
+
 int leerNumero();
 
 #include <stdio.h>
