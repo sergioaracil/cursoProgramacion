@@ -28,17 +28,17 @@ int numCarac = strlen(nom);
 
 for( i = 0; i < numCarac; i++) 
 { 
-if(isdigit(nom[i])) 
-{ 
-continue; 
-valido = 0; 
-} 
-else 
-{ 
-valido = 1;
-} 
-break;
-} 
+    if(isdigit(nom[i])) 
+    { 
+        continue; 
+            valido = 0; 
+        } 
+        else 
+        { 
+            valido = 1;
+        } 
+        break;
+    } 
 
 return valido; 
 } 
