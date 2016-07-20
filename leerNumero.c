@@ -26,23 +26,23 @@ int leerNumero()
 /*Validar la entrada, si la cadena entrada es un numero devuelve cero sino 1*/
 int validarEntrada(char nom[]) 
 { 
-int i = 0; 
-int valido = 0;// incializo la variable...es necesario. 
-int numCarac = strlen(nom); 
+    int i = 0; 
+    int valido = 0;// incializo la variable...es necesario. 
+    int numCarac = strlen(nom); /*strlen nos dice la longitud de la cadena de caracteres*/
 
-for( i = 0; i < numCarac; i++) 
-{ 
-if(isdigit(nom[i])) 
-{ 
-continue; 
-valido = 0; 
-} 
-else 
-{ 
-valido = 1;
-} 
-break;
-} 
+    for( i = 0; i < numCarac; i++) 
+        { 
+        if(isdigit(nom[i])) /* recorro toda la cadena comprobando si 'isdigit' lo que contiene cada uno de los caracteres*/
+            { 
+            continue; 
+            valido = 0; 
+            } 
+        else 
+            { 
+            valido = 1;
+            } 
+    break;
+    } 
 
 return valido; 
 } 
