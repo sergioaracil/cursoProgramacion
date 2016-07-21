@@ -1,5 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
+/*Se supone que estas librerias no hay que incluirlas ya que están definidas en la función principal
+ pero por algún motivo, si no las incluimos en esta función, en la compilación con NETBEANS nos dará un mensaje
+ de error aunque permite ejecutar la aplicación igualmente*/
 int leerNumero()
 {
     
