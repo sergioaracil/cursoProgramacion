@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ Muestra un menú de 4 opciones pero no valida ni comprueba si la opción elegida corresponde a una de las 4
  */
 #include <stdio.h>
 int main7()
