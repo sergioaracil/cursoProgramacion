@@ -11,9 +11,28 @@ int leerNumero()
     en caso de ser posible, de lo contrario retorna 0*/
     
 /*Comprobar que se ha convertido correctamente en un numero entero*/
-    if(num!=0) 
-        printf("El numero es: %d\n",num);
-    else
+      while(num!=0)
+      {
+      printf("el numero es: %d\n,num");
+      
+      
+      
+      
+      
+      
+  
+   
+          
+              
+            
+         
+      
+      
+      
+      
+      }
+      
+    else 
         printf("No es un numero\n");   
     
     
