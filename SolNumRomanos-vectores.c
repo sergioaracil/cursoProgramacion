@@ -18,7 +18,7 @@ int main()
     int d=(N/10)%10;
     int c=(N/100)%10;
     int m=N/1000;
-
+/*Con la variable m tomamos la primera cifra de los miles*/
  
     if (N>=1000){
         printf("%s%s%s%s",Millar[m],Centena[c],Decena[d],Unidad[u]);

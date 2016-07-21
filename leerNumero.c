@@ -23,6 +23,7 @@ int leerNumero()
     
    // return num;
   }
-    while ((num == 0) || (num>3500));
+    while ((num <1) || (num>3500));
+/*Con ese cambio también debe de funcionar*/
     return num;
 }
