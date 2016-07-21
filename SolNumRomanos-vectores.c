@@ -4,6 +4,7 @@ int leerNumero();
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h> /* Biblioteca utilizada por la funcion isdigit dentro de la funcion validarEntrada */
 int main()
 {    
     int N;
